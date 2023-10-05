@@ -1,0 +1,42 @@
+/*Outras medias*/
+/*
+Pequenas telas: até 600px
+Celular: de 600px ate 768
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (max-width: 600px) {
+
+   body {
+    background-color: red;
+   }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        background-color: black;
+        color: white
+    }
+
+}

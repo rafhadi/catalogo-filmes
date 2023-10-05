@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white; 
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+section {
+    height: 600px;
+
+}
+
+img {
+    height: 450px;
+    width: 90%;
+}
+
+article {
+    
+    width: 90%;
+
+}
